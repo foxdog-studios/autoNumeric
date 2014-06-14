@@ -1,0 +1,26 @@
+{
+  "name": "autoNumeric",
+  "main": "autoNumeric.js",
+  "version": "1.9.22",
+  "homepage": "https://github.com/foxdog-studios/autoNumeric",
+  "authors": [
+    "Peter Sutton <foxxy@foxdogstudios.com>"
+  ],
+  "description": "autoNumeric is a jQuery plugin that automatically formats currency (money) and numbers as you type on form inputs. It supports most International numeric formats and currency signs including those used in Europe, North and South America, Asia and India (lakhs**).",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "jQuery",
+    "plugin",
+    "currency"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
