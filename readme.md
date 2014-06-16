@@ -1,10 +1,10 @@
-[autoNumeric-1.9.22](http://www.decorplanit.com/plugin/)
+[autoNumeric-1.9.23](http://www.decorplanit.com/plugin/)
 ================================
 ### International currency formatting made easy
 
 Visit my home page for extensive demo's and documentation [http://www.decorplanit.com/plugin/ ](http://www.decorplanit.com/plugin/)
 
-autoNumeric is a jQuery plugin that automatically formats currency and numbers as you type on form inputs. It supports most International numeric formats and currency signs including those used in Europe, North and South America, Asia and India lakhs (Lakhs values supported below 1 billion). 
+autoNumeric is a jQuery plugin that automatically formats currency and numbers as you type on form inputs. It supports most International numeric formats and currency signs including those used in Europe, North and South America, Asia and India lakhs (Lakhs values supported below 1 billion).
 
 Any number of currency formats can reside on the same page and are configured by settings/options that can be placed as HTML5 data attribute or passed as an argument. These settings can easily be changed at any time using the new ‘update’ method or via the callback feature. autoNumeric to many other elements, allowing you to place formatted numbers and currency on just about any part of the page.
 
@@ -23,7 +23,7 @@ The following is a list of the methods and settings/options the control autoNume
 ****
 
 ###  Methods that are supported:
-    
+
 **'init'** - *initializes autoNumeric*
 
 +	$('someSelector').autoNumeric('init', {options});
@@ -60,7 +60,7 @@ The following is a list of the methods and settings/options the control autoNume
 
 ****
 
-###  Default settings & options that are supported: 
+###  Default settings & options that are supported:
 [visit my home page for an easy to use settings and option code generator ](http://www.decorplanit.com/plugin/)
 
 **"aSep"** - controls the thousand separator character
@@ -89,7 +89,7 @@ The following is a list of the methods and settings/options the control autoNume
 **"aSign"** - displays the desired currency symbol (examples: € or EUR). Note: other symbols can be used, such as %, °C, °F, km/h & MPH the possibilities are endless
 
 +	aSign: '' none   (default)
-	+ example - aSign: 'U$D' 
+	+ example - aSign: 'U$D'
 
 **"pSign"** - controls the placement of the currency symbol (prefix or suffix)
 
@@ -105,11 +105,11 @@ The following is a list of the methods and settings/options the control autoNume
 
 +	vMax: '999999999.99'   (default)
 
-*Note - setting the vMin and vMax to both positive or negative with situations that limits the users ability to enter the proper values*  
+*Note - setting the vMin and vMax to both positive or negative with situations that limits the users ability to enter the proper values*
 
 **"mDec"** - overrides the decimal places that that are set via the vMin/vMax values
 
-+ 	mDec: null   (default method) 
++ 	mDec: null   (default method)
 	* example - mDec: '4'
 
 **"mRound"** - sets the rounding method used (9 different available)
@@ -158,20 +158,20 @@ The following is a list of the methods and settings/options the control autoNume
 ****
 
 **Changing the defaults via options**
-  
+
 You can change the defaults with options via the "init" method or the "update" method after autoNUmeric has been initialized - example:
 
 &lt;input type="text" id="someID" class="someClass"&gt;
 
 $('someSelector').autoNumeric('init', {aSign: '€ ', vMax: '-999999999.99', nBracket: '(,)'});
 
-+ Initializes autoNumeric 
++ Initializes autoNumeric
 + Adds the Euro sign
 + Allows negative value of -999999999.99
 + Allows brackets on negative values
 
 **Changing the defaults via HTML5 data attribute**
-  
+
 You can also change the defaults with HTML5 data attributes - example:
 
 
@@ -179,7 +179,7 @@ You can also change the defaults with HTML5 data attributes - example:
 
 $('someSelector').autoNumeric('init');
 
-+ Initializes autoNumeric 
++ Initializes autoNumeric
 + Adds the Euro sign
 + Allows negative value of -999999999.99
 + Allows brackets on negative values
@@ -187,4 +187,4 @@ $('someSelector').autoNumeric('init');
 *Note: By convention the data attribute is written in lowercase. Compound words (example: "aDec") need to be split and separated by a dash. The equal sign separates the name and value. The value should be enclosed with quote marks. If multiple options are being used they each need to have the own data attribute.*
 
 
- 
+

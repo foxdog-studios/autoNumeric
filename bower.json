@@ -1,7 +1,7 @@
 {
   "name": "autoNumeric",
   "main": "autoNumeric.js",
-  "version": "1.9.22",
+  "version": "1.9.23",
   "homepage": "https://github.com/foxdog-studios/autoNumeric",
   "authors": [
     "Peter Sutton <foxxy@foxdogstudios.com>"
